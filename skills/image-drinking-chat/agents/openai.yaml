@@ -1,0 +1,6 @@
+interface:
+  display_name: "识图喝酒"
+  short_description: "看图生成酒友群聊，先判定识图置信度。"
+  default_prompt: "$image-drinking-chat 识图喝酒：根据这张喝酒图写 6-10 条真实酒友群聊。"
+policy:
+  allow_implicit_invocation: true

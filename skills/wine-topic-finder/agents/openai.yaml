@@ -1,0 +1,6 @@
+interface:
+  display_name: "找话题"
+  short_description: "发现酒类新闻、热点和群聊选题卡。"
+  default_prompt: "$wine-topic-finder 找话题：帮我找 5 个适合酒友群聊的白酒话题。"
+policy:
+  allow_implicit_invocation: true

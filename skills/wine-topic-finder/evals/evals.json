@@ -1,0 +1,23 @@
+{
+  "skill_name": "wine-topic-finder",
+  "evals": [
+    {
+      "id": "T1",
+      "prompt": "找话题：帮我找最近适合酒友群聊的白酒话题。",
+      "expected_output": "5-10 topic cards with source notes and concrete entity anchors.",
+      "assertions": ["search required", "source notes included", "5-10 topic cards", "each has entity_anchor"]
+    },
+    {
+      "id": "T2",
+      "prompt": "找 5 个中秋前适合白酒群聊的常青话题。",
+      "expected_output": "Evergreen topic cards that are wine-related, chat-ready, and non-repetitive.",
+      "assertions": ["wine-related", "chat-ready opening lines", "non-repetitive conflict points"]
+    },
+    {
+      "id": "T3",
+      "prompt": "找小红书白酒趋势，但浏览器和搜索都不可用。",
+      "expected_output": "A limitation note plus evergreen fallback topics, without claiming freshness.",
+      "assertions": ["states limitation", "does not claim freshness", "offers evergreen fallback"]
+    }
+  ]
+}

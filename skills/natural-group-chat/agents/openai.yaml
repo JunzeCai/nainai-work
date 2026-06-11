@@ -1,0 +1,6 @@
+interface:
+  display_name: "水群脚本"
+  short_description: "围绕话题写真实多人酒友群聊。"
+  default_prompt: "$natural-group-chat 水群脚本：围绕这个话题写 30-40 条真实群聊。"
+policy:
+  allow_implicit_invocation: true
