@@ -1,0 +1,6 @@
+interface:
+  display_name: "卖货话术"
+  short_description: "基于事实锁写私域官号/微信群成交文案。"
+  default_prompt: "$sales-official-copy 卖货话术：根据这些产品事实写一篇可直接发群的文案。"
+policy:
+  allow_implicit_invocation: true

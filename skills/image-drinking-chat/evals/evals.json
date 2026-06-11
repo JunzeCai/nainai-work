@@ -1,0 +1,29 @@
+{
+  "skill_name": "image-drinking-chat",
+  "evals": [
+    {
+      "id": "I1",
+      "prompt": "这张图酒瓶很清楚，能看到汾酒标签。帮我识图喝酒，写 6-10 条酒友群聊。",
+      "expected_output": "A 6-10 line chat that may name Fenjiu, uses at least 4 roles, and invents no price unless provided.",
+      "assertions": ["may name the wine", "no invented price unless provided", "6-10 chat lines", "at least 4 roles"]
+    },
+    {
+      "id": "I2",
+      "prompt": "饭桌照片里酒瓶被挡了一半，红色标签但品牌看不清。看图写个酒友群聊。",
+      "expected_output": "A chat that treats the bottle as confidence B and uses uncertainty instead of asserting a brand.",
+      "assertions": ["must not assert brand", "must include uncertainty", "chat still talks scene naturally"]
+    },
+    {
+      "id": "I3",
+      "prompt": "图里只有菜和酒杯，没有拍到瓶子。写一段喝酒群聊。",
+      "expected_output": "A scene-based chat that does not invent a wine brand, price, or taste profile.",
+      "assertions": ["must not invent wine", "talks food and drinking mood", "no brand or price"]
+    },
+    {
+      "id": "I4",
+      "prompt": "图里两瓶酒，一瓶清楚一瓶糊。帮我写识图喝酒群聊。",
+      "expected_output": "A chat that only asserts the clearly visible bottle and does not mix the two bottles.",
+      "assertions": ["may only assert the clear bottle", "does not mix brands", "uses casual group-chat tone"]
+    }
+  ]
+}

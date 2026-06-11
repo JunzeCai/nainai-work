@@ -1,0 +1,29 @@
+{
+  "skill_name": "sales-official-copy",
+  "evals": [
+    {
+      "id": "S1",
+      "prompt": "卖货话术：产品名和购买链接如下，没有价格。帮我写一篇可发群文案。",
+      "expected_output": "A short sales post that keeps the link unchanged and does not invent price, stock, or gifts.",
+      "assertions": ["does not invent price", "does not invent stock", "link unchanged", "shorter copy allowed"]
+    },
+    {
+      "id": "S2",
+      "prompt": "卖货话术：产品、官价、券后价、截止时间和链接都给了。写官号文案。",
+      "expected_output": "A fact-locked post with matching prices and deadline, a clear action, and no live-stream shouting.",
+      "assertions": ["prices match input", "deadline matches input", "clear action", "not live-stream yelling"]
+    },
+    {
+      "id": "S3",
+      "prompt": "中秋节点囤货，给了口感事实但没有赠品。帮我写私域卖货文案。",
+      "expected_output": "A holiday stock-up post that uses only provided taste facts and does not invent gifts.",
+      "assertions": ["uses holiday-stockup logic", "does not invent gift", "opening reaches product within 4 lines"]
+    },
+    {
+      "id": "S4",
+      "prompt": "这款酒返场了，但没有销量数据。帮我写返场催单文案。",
+      "expected_output": "A return-sale post that avoids unsupported sales-volume claims and closes with a practical action.",
+      "assertions": ["does not claim爆卖 or many people asked unless provided", "has closing action"]
+    }
+  ]
+}

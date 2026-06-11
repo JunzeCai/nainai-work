@@ -1,0 +1,23 @@
+{
+  "skill_name": "wine-shill-chat",
+  "evals": [
+    {
+      "id": "W1",
+      "prompt": "酒托脚本：给了酒名、价格、赠品和链接，写 25 条群聊带单。",
+      "expected_output": "A 25-30 line chat where customer service does not pretend, gift/link facts match input, and rhythm is planned.",
+      "assertions": ["客服 does not pretend", "gift matches input", "link unchanged if used", "has plan rhythm"]
+    },
+    {
+      "id": "W2",
+      "prompt": "酒托脚本：需要下单截图和酒瓶图占位，写一段晒单氛围。",
+      "expected_output": "A chat with specific image placeholders, each introduced and reacted to by group members.",
+      "assertions": ["specific placeholders", "before and after chat around each", "no vague [图片]"]
+    },
+    {
+      "id": "W3",
+      "prompt": "这款酒只给了一个竞品名，帮我写群聊对比带单。",
+      "expected_output": "A comparison using only the provided competitor and framing claims as personal chat opinion.",
+      "assertions": ["does not add unknown competitors", "comparison is personal chat opinion", "does not attack main product"]
+    }
+  ]
+}
