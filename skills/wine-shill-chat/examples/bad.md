@@ -19,4 +19,11 @@ Why bad: unsupported stock and sales claims unless provided.
 无情：对，更柔更深，权威感拉满。
 ```
 
-Why bad: shill roles ask process questions, use deadline pressure, expose price-control notes, repeat detail-page parameters, and sound like synchronized marketing copy.
+Why bad: shill roles ask process questions, use deadline pressure, cram provided selling points into a slogan, repeat detail-page parameters, and sound like synchronized marketing copy.
+
+```text
+谢二：下午别再讲新酒了，老群都懂
+北陌：对，讲实际的，官方控价 799，今天返场最后一天
+```
+
+Why bad: even if both facts were provided, the delivery is too stiff and promotional. A real group member would add doubt, context, or a personal reason instead of stacking selling points.

@@ -33,9 +33,9 @@
     },
     {
       "id": "W6",
-      "prompt": "酒托脚本：这款酒有获奖信息，帮我写群聊带单。",
-      "expected_output": "Awards are mentioned casually and only if provided; chat avoids deadline pressure, process questions, price-control notes, and dead parameter repetition.",
-      "assertions": ["awards casual", "no 客服能不能拍", "no 最后一天抓紧", "no 官方控价", "no 52度浓香500毫升 praise"]
+      "prompt": "酒托脚本：这款酒有获奖信息，官方控价799，今天返场最后一天，帮我写群聊带单。",
+      "expected_output": "Provided selling points may appear, including official price control and return timing, but they must sound casual and avoid deadline pressure, process questions, and dead parameter repetition.",
+      "assertions": ["provided selling points allowed", "official price control sounds natural", "return timing is factual not pushy", "no 客服能不能拍", "no 最后一天抓紧", "no 52度浓香500毫升 praise"]
     }
   ]
 }

@@ -3,7 +3,7 @@ name: wine-shill-chat
 description: "酒托脚本. Generate realistic multi-person wine shill/order group chat scripts with buying, screenshots, arrival, tasting, gift questions, customer service answers, price comparison, and staged rhythm. Use when the user says 酒托脚本, 群聊带单, 群里带节奏, 晒单, 已拍, 到货, 客服答疑, or wants group-chat selling atmosphere, not a single sales post."
 license: MIT
 metadata:
-  version: 2.1.0
+  version: 2.1.1
 ---
 
 # 酒托脚本
@@ -60,12 +60,13 @@ The six waves should read like one virtual group over time. People may "round ba
 ## Boundaries
 
 - Do not invent price, coupon, gift, stock, limit, sales volume, official backing, screenshot truth, or口感 feedback.
+- User-provided selling points may be used, including official price-control notes, return-event timing, awards, specs, and product claims. The rule is not "avoid the selling point"; the rule is "make it sound like a real group member noticing or asking about it."
 - Do not invent awards/honors. If awards are provided, members may mention them briefly as a remembered fact or discovery, not as a synchronized authority pitch.
 - Customer service must not pretend to be an ordinary buyer.
 - Ordinary shill members must not ask process questions like "还能不能拍", "客服能不能拍", "问客服还能拍吗", or any variant that makes the shill look like they are coordinating the sale.
-- Ordinary shill members must not say deadline-pressure lines like "最后一天抓紧", "不拍就没了", "今晚必须下手", or "错过没了", unless the user explicitly provided a real deadline and the line is assigned to customer service in a restrained factual answer.
-- Ordinary shill members must not mention official price-control or channel-control notes such as "官方控价799很严", "控价很死", or hidden internal pricing rules.
-- Do not repeat detail-page parameters as praise, such as "52度浓香500毫升", "净含量500ml", or "标准浓香型白酒". Use such facts only if customer service answers a direct factual question and the user supplied the facts.
+- Deadline or return-event timing can appear if the user provided it, but do not write pressure lines like "最后一天抓紧", "不拍就没了", "今晚必须下手", or "错过没了". Keep it factual, casual, and non-commanding.
+- Official price-control or channel-control notes such as "官方控价799" can appear if the user provided them. Do not pair them with hard-closing language or write them as an official slogan.
+- Do not repeat detail-page parameters as praise, such as "52度浓香500毫升", "净含量500ml", or "标准浓香型白酒". If the user gives specs as selling points, use them sparingly inside questions, corrections, or customer-service answers instead of making ordinary members chant them.
 - Do not make several people jointly emphasize "知名度", "神秘度", "权威感", "大厂背书", or similar abstract positioning. One grounded comment is enough if it is fact-supported.
 - Do not output internal notes such as "这段不发", screenshot numbers, or forbidden price remarks.
 - Competitor comparisons must be user-provided or clearly framed as personal chat opinion.

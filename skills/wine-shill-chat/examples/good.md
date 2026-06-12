@@ -16,6 +16,17 @@
 
 Why good: customer service stays in role, comparison is cautious, image slot is supported by chat.
 
+## Good Provided Price-Control Mini Example
+
+```text
+无情：它页面写官方控价799，这个我信一半，关键还是到手价和赠品别绕
+北陌：那返场是今天收？我不急着冲，先看你们谁拍了
+客服：返场时间按页面显示，赠品也是拍后登记
+糯团子：这说法还行，别整成喊口号就行
+```
+
+Why good: provided selling points appear in the chat, but they are softened by doubt, context, and customer-service facts instead of turning into a hard-sell slogan.
+
 ## Good Six-Wave Continuity Mini Example
 
 ```text

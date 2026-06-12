@@ -12,6 +12,8 @@ fact_lock:
   links: []
   stock: ""
   deadline: ""
+  selling_points: []
+  price_control_notes: []
   awards_honors: []
   competitor_refs: []
   forbidden_notes: []
@@ -63,9 +65,9 @@ wine_shill_plan:
 ## Wave Focus Rules
 
 - Day 1 noon: mostly taste curiosity, meal fit, first-person hesitation. Avoid hard selling.
-- Day 1 afternoon: questions and doubts. Customer service may answer provided facts, but ordinary members should not ask "can I still buy/shoot/order".
+- Day 1 afternoon: questions and doubts. Customer service may answer provided facts, and ordinary members may naturally mention provided selling points. They should not ask "can I still buy/shoot/order".
 - Day 2 noon: ordering and image placeholders. Do not let the same member post every screenshot.
-- Day 2 afternoon: awards/honors may appear if provided. Mention them as a small supporting fact, not a repeated authority chant.
+- Day 2 afternoon: awards/honors, official price-control notes, or other provided selling points may appear. Mention them as small supporting facts, not repeated authority chants or hard-closing slogans.
 - Day 3 noon: arrivals, family dinner, gift, budget, small corrections.
 - Day 3 afternoon: natural wrap-up. Use personal decisions and callbacks, not deadline pressure.
 
