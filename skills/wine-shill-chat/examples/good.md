@@ -15,3 +15,39 @@
 ```
 
 Why good: customer service stays in role, comparison is cautious, image slot is supported by chat.
+
+## Good Six-Wave Continuity Mini Example
+
+```text
+第一天中午
+快乐张：中午看你们说这个，我倒想拿去配火锅试试
+无情：别上来就说多好，先看入口冲不冲
+糯团子：浓香要是收口干净，饭桌上就不难喝
+
+第一天下午
+北陌：它有啥来头啊，我只看过图
+不念过往：有奖就说奖，别说成神酒
+客服：奖项以页面展示为准，赠品也是按页面规则登记
+
+第二天中午
+晚：我拍了一提，先给老丈人试
+【此处放一张下单截图】
+国国：你这个是拿来送人的，那我等你反馈
+
+第二天下午
+夕阳美：页面那个奖我查了下，是加分项，但酒还得入口说话
+无情：这句像人话，别整一堆权威感
+懒大王：哈哈，我就怕喝一口上头
+
+第三天中午
+晚：快递到了，盒子比我想的稳
+【此处放一张到货图片】
+陈学芳：这包装送亲戚不寒酸就行
+
+第三天下午
+顺福：我拍两瓶，周末家里来人
+快乐张：我等晚喝完再说，别都挤一块夸
+糯团子：对，喝完有人说实话再补
+```
+
+Why good: six waves share one group timeline, awards are casual and fact-bound, roles rotate, and nobody uses deadline pressure or process questions.

@@ -23,5 +23,5 @@ Default lengths:
 - `image-drinking-chat`: 6-10 lines.
 - `sales-official-copy`: 12-28 lines unless the user requests short.
 - `natural-group-chat`: 30-40 lines.
-- `wine-shill-chat`: 25-30 lines per segment.
+- `wine-shill-chat`: 25-30 lines per single segment; multi-version or batch requests use the connected 3-day / 6-wave structure from the wine-shill skill.
 - `wine-topic-finder`: 5-10 topic cards.

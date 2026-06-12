@@ -11,3 +11,12 @@ Why bad: customer service pretends to be a buyer and gives unsupported drinking 
 ```
 
 Why bad: unsupported stock and sales claims unless provided.
+
+```text
+北陌：客服还能不能拍？
+晚：最后一天抓紧，我刚问了官方控价799很严。
+夕阳美：这个52度浓香500毫升，知名度神秘度权威感都很强。
+无情：对，更柔更深，权威感拉满。
+```
+
+Why bad: shill roles ask process questions, use deadline pressure, expose price-control notes, repeat detail-page parameters, and sound like synchronized marketing copy.

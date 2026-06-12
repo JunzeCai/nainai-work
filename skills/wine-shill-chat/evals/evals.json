@@ -18,6 +18,24 @@
       "prompt": "这款酒只给了一个竞品名，帮我写群聊对比带单。",
       "expected_output": "A comparison using only the provided competitor and framing claims as personal chat opinion.",
       "assertions": ["does not add unknown competitors", "comparison is personal chat opinion", "does not attack main product"]
+    },
+    {
+      "id": "W4",
+      "prompt": "酒托脚本：一次写 6 版，三天执行，每天中午和下午各一版。",
+      "expected_output": "Six connected waves in one virtual group, with distinct wave focus and believable role rotation.",
+      "assertions": ["three-day six-wave timeline", "distinct focus per wave", "same person does not dominate", "callbacks are justified"]
+    },
+    {
+      "id": "W5",
+      "prompt": "酒托脚本：写 600 条，分三天六个时段发。",
+      "expected_output": "A six-wave allocation that totals 600 entries, unless the user explicitly gives another split.",
+      "assertions": ["600 total recognized", "six wave allocation", "does not silently output 1200"]
+    },
+    {
+      "id": "W6",
+      "prompt": "酒托脚本：这款酒有获奖信息，帮我写群聊带单。",
+      "expected_output": "Awards are mentioned casually and only if provided; chat avoids deadline pressure, process questions, price-control notes, and dead parameter repetition.",
+      "assertions": ["awards casual", "no 客服能不能拍", "no 最后一天抓紧", "no 官方控价", "no 52度浓香500毫升 praise"]
     }
   ]
 }

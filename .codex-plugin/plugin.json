@@ -1,6 +1,6 @@
 {
   "name": "nainai-skill-pack",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Portable white-liquor private-domain writing workflows: image-to-chat, sales copy, group chat scripts, wine shill scripts, and topic discovery.",
   "author": {
     "name": "Nainai Skill Pack"
@@ -27,6 +27,7 @@
     "defaultPrompt": [
       "$nainai-skill-pack 识图喝酒：帮我根据这张喝酒图写一段酒友群聊",
       "$nainai-skill-pack 卖货话术：帮我写一篇白酒私域官号文案",
+      "$nainai-skill-pack 酒托脚本：帮我写三天六波连续群聊带单脚本",
       "$nainai-skill-pack 找话题：帮我找几个白酒群聊话题"
     ],
     "brandColor": "#7A2E1F"
