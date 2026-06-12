@@ -3,7 +3,7 @@ name: wine-shill-chat
 description: "酒托脚本. Generate realistic multi-person wine shill/order group chat scripts with buying, screenshots, arrival, tasting, gift questions, customer service answers, price comparison, and staged rhythm. Use when the user says 酒托脚本, 群聊带单, 群里带节奏, 晒单, 已拍, 到货, 客服答疑, or wants group-chat selling atmosphere, not a single sales post."
 license: MIT
 metadata:
-  version: 2.1.1
+  version: 2.2.0
 ---
 
 # 酒托脚本
@@ -15,6 +15,7 @@ Write a group chat that naturally creates purchase atmosphere around a wine. Cus
 - Shared personas: `../nainai-skill-pack/references/personas.md`
 - Shared tone rules: `../nainai-skill-pack/references/anti-ai-tone.md`
 - Plan workflow: `references/plan-card.md`
+- Dialogue naturalization: `references/dialogue-naturalization.md`
 - Quality gate: `references/quality-gate.md`
 - Examples: `examples/good.md` and `examples/bad.md`
 
@@ -27,10 +28,11 @@ Write a group chat that naturally creates purchase atmosphere around a wine. Cus
    - Multi-version or batch: default to one connected 3-day / 6-wave chat plan: Day 1 noon, Day 1 afternoon, Day 2 noon, Day 2 afternoon, Day 3 noon, Day 3 afternoon.
    - If the user asks for 600 total entries, split them evenly across the six waves unless they provide a different allocation. If the user asks for 200 entries in each of six waves, treat that as 1200 total or clarify the total before writing.
 4. Build an internal `wine_shill_plan` with a timeline, topic progression, and role rotation.
-5. Select 6-9 personas plus optional `客服` or `官号`; rotate them across waves so one ordinary member does not keep reappearing as the main actor.
-6. Generate the requested wave(s), keeping each wave connected to earlier events through natural callbacks.
-7. Add image placeholders only when useful and specific.
-8. Run quality gate and rewrite once if service identity, facts, role behavior, timeline, or tone fail.
+5. Convert user-provided selling points into dialogue beats: question, doubt, correction, personal reason, service fact, or life scene. Do not stack selling points into one slogan line.
+6. Select 6-9 personas plus optional `客服` or `官号`; rotate them across waves so one ordinary member does not keep reappearing as the main actor.
+7. Generate the requested wave(s), keeping each wave connected to earlier events through natural callbacks.
+8. Add image placeholders only when useful and specific.
+9. Run quality gate and rewrite once if service identity, facts, role behavior, timeline, selling-point delivery, or tone fail.
 
 ## Default 3-Day / 6-Wave Rhythm
 
@@ -46,6 +48,14 @@ Use this when the user asks for multiple versions, six versions, multi-day execu
 | 6 | Day 3 afternoon | Loose wrap-up, individual buying decisions, remaining questions | Close the group story without deadline pressure |
 
 The six waves should read like one virtual group over time. People may "round back" later if there is a reason, such as their delivery arriving or someone asking them a direct question. Do not make the same person repeatedly buy, photograph, praise, and explain across multiple waves.
+
+## Explicit Group Variants
+
+Do not infer old-group/new-group/mixed-group structure on your own. Only use these variants when the user explicitly asks for them.
+
+- Old group: reduce basic education; emphasize prior drinking, repurchase, missed restock, family feedback, and补货.
+- New group: include more questions, product origin, why it is worth trying, and risk-reducing explanations.
+- Mixed group: let old members answer new members instead of making everyone equally knowledgeable.
 
 ## Output Contract
 
@@ -64,9 +74,11 @@ The six waves should read like one virtual group over time. People may "round ba
 - Do not invent awards/honors. If awards are provided, members may mention them briefly as a remembered fact or discovery, not as a synchronized authority pitch.
 - Customer service must not pretend to be an ordinary buyer.
 - Ordinary shill members must not ask process questions like "还能不能拍", "客服能不能拍", "问客服还能拍吗", or any variant that makes the shill look like they are coordinating the sale.
+- Replace process questions with actions: "已拍", "补了一箱", "截图发客服了", "等到货", "晚上开了说", or "周末带出去试".
 - Deadline or return-event timing can appear if the user provided it, but do not write pressure lines like "最后一天抓紧", "不拍就没了", "今晚必须下手", or "错过没了". Keep it factual, casual, and non-commanding.
 - Official price-control or channel-control notes such as "官方控价799" can appear if the user provided them. Do not pair them with hard-closing language or write them as an official slogan.
 - Do not repeat detail-page parameters as praise, such as "52度浓香500毫升", "净含量500ml", or "标准浓香型白酒". If the user gives specs as selling points, use them sparingly inside questions, corrections, or customer-service answers instead of making ordinary members chant them.
 - Do not make several people jointly emphasize "知名度", "神秘度", "权威感", "大厂背书", or similar abstract positioning. One grounded comment is enough if it is fact-supported.
+- If one ordinary line contains two or more selling points, rewrite it unless the line is a natural question, doubt, correction, or customer-service factual answer.
 - Do not output internal notes such as "这段不发", screenshot numbers, or forbidden price remarks.
 - Competitor comparisons must be user-provided or clearly framed as personal chat opinion.

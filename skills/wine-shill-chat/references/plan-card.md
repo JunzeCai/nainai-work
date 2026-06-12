@@ -21,6 +21,7 @@ wine_shill_plan:
   mode: single_segment | three_day_six_wave | batch_600
   rhythm:晒单起势 | 试喝反馈 | 赠品客服 | 争议纠偏 | 三天六波
   total_entries: ""
+  explicit_group_variant: none | old_group | new_group | mixed_group
   wave_allocation:
     day1_noon: ""
     day1_afternoon: ""
@@ -50,6 +51,12 @@ wine_shill_plan:
   angle_ledger:
     used_phrases: []
     used_selling_points: []
+    selling_point_delivery:
+      question: []
+      doubt: []
+      correction: []
+      service_fact: []
+      life_scene: []
     banned_repeats: ["更柔", "更深", "知名度", "神秘度", "权威感"]
   image_slots: []
   conflict: ""
@@ -61,6 +68,13 @@ wine_shill_plan:
 - Six-wave structure is the default for multi-version tasks.
 - If the target is 600 total entries, allocate 100 entries to each of the six waves unless the user gives a different split.
 - If the brief says "three days, noon and afternoon, 200 each", note internally that this equals 1200 entries. Do not silently call it 600.
+
+## Explicit Group Variant Rule
+
+- Do not infer old/new/mixed group. Set `explicit_group_variant` only when the user says 老群, 新群, 混合群, or gives equivalent direct wording.
+- Old group: prior drinking, repurchase, missed restock,补货, family feedback.
+- New group: product origin, why try it, competitor anchor, risk-reducing answers.
+- Mixed group: old members answer new members; keep knowledge uneven.
 
 ## Wave Focus Rules
 

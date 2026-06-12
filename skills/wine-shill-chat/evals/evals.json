@@ -36,6 +36,18 @@
       "prompt": "酒托脚本：这款酒有获奖信息，官方控价799，今天返场最后一天，帮我写群聊带单。",
       "expected_output": "Provided selling points may appear, including official price control and return timing, but they must sound casual and avoid deadline pressure, process questions, and dead parameter repetition.",
       "assertions": ["provided selling points allowed", "official price control sounds natural", "return timing is factual not pushy", "no 客服能不能拍", "no 最后一天抓紧", "no 52度浓香500毫升 praise"]
+    },
+    {
+      "id": "W7",
+      "prompt": "酒托脚本：卖点有官方控价799、返场最后一天、封藏大典、对标K6，写得自然一点。",
+      "expected_output": "The selling points are split across questions, doubts, corrections, personal reasons, service facts, or life scenes instead of being stacked into slogans.",
+      "assertions": ["selling points split into dialogue", "no slogan stacking", "has doubt or correction", "has personal or meal context"]
+    },
+    {
+      "id": "W8",
+      "prompt": "酒托脚本：不要问客服还能不能拍，直接写有人已拍、补单、截图登记。",
+      "expected_output": "The script replaces process questions with purchase actions, screenshot registration, delivery expectation, or later tasting callbacks.",
+      "assertions": ["no process question", "has 已拍 or 补单", "has screenshot registration or delivery callback", "customer service stays factual"]
     }
   ]
 }

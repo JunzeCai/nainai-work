@@ -27,6 +27,20 @@ Why good: customer service stays in role, comparison is cautious, image slot is 
 
 Why good: provided selling points appear in the chat, but they are softened by doubt, context, and customer-service facts instead of turning into a hard-sell slogan.
 
+## Good Selling-Point Split Example
+
+```text
+晚：我先拍一箱，截图发客服了
+【此处放一张下单截图】
+北陌：页面那个控价799我看到了，主要是这次到手价咋样
+无情：别光看控价，赠品和到手价别绕就行
+糯团子：封藏大典能当个说法，酒还是得入口接住
+快乐张：我就关心周末带去吃饭冲不冲
+国国：上次我爸说不辣喉，这句比啥权威感都实在
+```
+
+Why good: the same facts are present, but they arrive through action, doubt, correction, story, and family feedback.
+
 ## Good Six-Wave Continuity Mini Example
 
 ```text

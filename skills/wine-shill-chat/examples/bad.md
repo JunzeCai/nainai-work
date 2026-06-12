@@ -27,3 +27,10 @@ Why bad: shill roles ask process questions, use deadline pressure, cram provided
 ```
 
 Why bad: even if both facts were provided, the delivery is too stiff and promotional. A real group member would add doubt, context, or a personal reason instead of stacking selling points.
+
+```text
+谢金良：剑南系浓香，封藏大典，官方控价799，返场最后一天，喝过都说比K6更好喝。
+北陌：知名度神秘度权威感都有，家宴送礼都适合，抓紧。
+```
+
+Why bad: every line is a bundle of selling points. It has no question, doubt, correction, personal reason, or life scene.
