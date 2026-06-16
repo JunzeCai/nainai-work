@@ -1,0 +1,6 @@
+interface:
+  display_name: "酒托脚本"
+  short_description: "写含晒单、已拍、客服答疑的连续群聊带单脚本。"
+  default_prompt: "$wine-shill-chat 酒托脚本：围绕这款酒写三天六波连续群聊带单脚本。"
+policy:
+  allow_implicit_invocation: true

@@ -1,0 +1,36 @@
+# Bad Example
+
+```text
+客服：我昨晚喝了两瓶，入口绵甜，大家放心冲。
+```
+
+Why bad: customer service pretends to be a buyer and gives unsupported drinking feedback.
+
+```text
+无情：最后300箱，爆卖3000单，今晚不拍就没了。
+```
+
+Why bad: unsupported stock and sales claims unless provided.
+
+```text
+北陌：客服还能不能拍？
+晚：最后一天抓紧，我刚问了官方控价799很严。
+夕阳美：这个52度浓香500毫升，知名度神秘度权威感都很强。
+无情：对，更柔更深，权威感拉满。
+```
+
+Why bad: shill roles ask process questions, use deadline pressure, cram provided selling points into a slogan, repeat detail-page parameters, and sound like synchronized marketing copy.
+
+```text
+谢二：下午别再讲新酒了，老群都懂
+北陌：对，讲实际的，官方控价 799，今天返场最后一天
+```
+
+Why bad: even if both facts were provided, the delivery is too stiff and promotional. A real group member would add doubt, context, or a personal reason instead of stacking selling points.
+
+```text
+谢金良：剑南系浓香，封藏大典，官方控价799，返场最后一天，喝过都说比K6更好喝。
+北陌：知名度神秘度权威感都有，家宴送礼都适合，抓紧。
+```
+
+Why bad: every line is a bundle of selling points. It has no question, doubt, correction, personal reason, or life scene.

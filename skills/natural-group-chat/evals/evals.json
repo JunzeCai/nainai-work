@@ -1,0 +1,23 @@
+{
+  "skill_name": "natural-group-chat",
+  "evals": [
+    {
+      "id": "G1",
+      "prompt": "水群脚本：写 30 条，聊一款 100 元浓香酒适不适合家庭聚餐。",
+      "expected_output": "A 30-40 line group chat with at least 6 roles, scene/price discussion, and a correction.",
+      "assertions": ["30-40 lines", "at least 6 roles", "not only taste", "has correction"]
+    },
+    {
+      "id": "G2",
+      "prompt": "用最新白酒行业新闻写一段酒友群聊。",
+      "expected_output": "A source-backed group chat with a source section and no unsourced current claims.",
+      "assertions": ["search required", "source section after chat", "no unsourced current claims"]
+    },
+    {
+      "id": "G3",
+      "prompt": "同一个话题再写一版，但不要和上一版像。",
+      "expected_output": "A variant with a materially different opening, conflict, role lead, and ending action.",
+      "assertions": ["different opening", "different conflict", "not synonym-only rewrite"]
+    }
+  ]
+}

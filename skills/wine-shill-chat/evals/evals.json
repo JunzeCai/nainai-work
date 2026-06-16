@@ -1,0 +1,53 @@
+{
+  "skill_name": "wine-shill-chat",
+  "evals": [
+    {
+      "id": "W1",
+      "prompt": "酒托脚本：给了酒名、价格、赠品和链接，写 25 条群聊带单。",
+      "expected_output": "A 25-30 line chat where customer service does not pretend, gift/link facts match input, and rhythm is planned.",
+      "assertions": ["客服 does not pretend", "gift matches input", "link unchanged if used", "has plan rhythm"]
+    },
+    {
+      "id": "W2",
+      "prompt": "酒托脚本：需要下单截图和酒瓶图占位，写一段晒单氛围。",
+      "expected_output": "A chat with specific image placeholders, each introduced and reacted to by group members.",
+      "assertions": ["specific placeholders", "before and after chat around each", "no vague [图片]"]
+    },
+    {
+      "id": "W3",
+      "prompt": "这款酒只给了一个竞品名，帮我写群聊对比带单。",
+      "expected_output": "A comparison using only the provided competitor and framing claims as personal chat opinion.",
+      "assertions": ["does not add unknown competitors", "comparison is personal chat opinion", "does not attack main product"]
+    },
+    {
+      "id": "W4",
+      "prompt": "酒托脚本：一次写 6 版，三天执行，每天中午和下午各一版。",
+      "expected_output": "Six connected waves in one virtual group, with distinct wave focus and believable role rotation.",
+      "assertions": ["three-day six-wave timeline", "distinct focus per wave", "same person does not dominate", "callbacks are justified"]
+    },
+    {
+      "id": "W5",
+      "prompt": "酒托脚本：写 600 条，分三天六个时段发。",
+      "expected_output": "A six-wave allocation that totals 600 entries, unless the user explicitly gives another split.",
+      "assertions": ["600 total recognized", "six wave allocation", "does not silently output 1200"]
+    },
+    {
+      "id": "W6",
+      "prompt": "酒托脚本：这款酒有获奖信息，官方控价799，今天返场最后一天，帮我写群聊带单。",
+      "expected_output": "Provided selling points may appear, including official price control and return timing, but they must sound casual and avoid deadline pressure, process questions, and dead parameter repetition.",
+      "assertions": ["provided selling points allowed", "official price control sounds natural", "return timing is factual not pushy", "no 客服能不能拍", "no 最后一天抓紧", "no 52度浓香500毫升 praise"]
+    },
+    {
+      "id": "W7",
+      "prompt": "酒托脚本：卖点有官方控价799、返场最后一天、封藏大典、对标K6，写得自然一点。",
+      "expected_output": "The selling points are split across questions, doubts, corrections, personal reasons, service facts, or life scenes instead of being stacked into slogans.",
+      "assertions": ["selling points split into dialogue", "no slogan stacking", "has doubt or correction", "has personal or meal context"]
+    },
+    {
+      "id": "W8",
+      "prompt": "酒托脚本：不要问客服还能不能拍，直接写有人已拍、补单、截图登记。",
+      "expected_output": "The script replaces process questions with purchase actions, screenshot registration, delivery expectation, or later tasting callbacks.",
+      "assertions": ["no process question", "has 已拍 or 补单", "has screenshot registration or delivery callback", "customer service stays factual"]
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "name": "nainai-skill-pack",
+  "version": "1.0.3",
+  "description": "Portable white-liquor private-domain writing workflows: image-to-chat, sales copy, group chat scripts, wine shill scripts, and topic discovery.",
+  "author": {
+    "name": "Nainai Skill Pack"
+  },
+  "license": "MIT",
+  "keywords": [
+    "skills",
+    "white-liquor",
+    "private-domain",
+    "sales-official-copy",
+    "group-chat"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "奶奶 Skill Pack",
+    "shortDescription": "白酒私域内容工作流：识图喝酒、卖货话术、水群脚本、酒托脚本、找话题。",
+    "longDescription": "一套可迁移、可评测、可长期维护的白酒私域内容 Skill Pack，覆盖识图喝酒、卖货话术、水群脚本、酒托脚本和找话题五类工作流。",
+    "developerName": "Nainai Skill Pack",
+    "category": "Productivity",
+    "capabilities": [
+      "Write",
+      "Analyze"
+    ],
+    "defaultPrompt": [
+      "$nainai-skill-pack 识图喝酒：帮我根据这张喝酒图写一段酒友群聊",
+      "$nainai-skill-pack 卖货话术：帮我写一篇白酒私域官号文案",
+      "$nainai-skill-pack 酒托脚本：帮我写三天六波连续群聊带单脚本",
+      "$nainai-skill-pack 找话题：帮我找几个白酒群聊话题"
+    ],
+    "brandColor": "#7A2E1F"
+  }
+}

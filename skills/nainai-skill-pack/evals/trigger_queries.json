@@ -1,0 +1,50 @@
+{
+  "skill_name": "nainai-skill-pack",
+  "queries": [
+    {
+      "id": "TR-I1",
+      "query": "识图喝酒：这张饭桌图帮我写几句酒友群聊",
+      "should_trigger": "image-drinking-chat"
+    },
+    {
+      "id": "TR-I2",
+      "query": "瓶子看不清，别瞎猜品牌，帮我写个喝酒群聊",
+      "should_trigger": "image-drinking-chat"
+    },
+    {
+      "id": "TR-S1",
+      "query": "卖货话术：这款酒有链接和券后价，帮我写官号文案",
+      "should_trigger": "sales-official-copy"
+    },
+    {
+      "id": "TR-S2",
+      "query": "朋友圈发一条白酒返场催单，价格我给你",
+      "should_trigger": "sales-official-copy"
+    },
+    {
+      "id": "TR-G1",
+      "query": "水群脚本：聊聊过年到底要不要囤白酒，写 30 条",
+      "should_trigger": "natural-group-chat"
+    },
+    {
+      "id": "TR-W1",
+      "query": "酒托脚本：要有人已拍、晒单、客服答疑和赠品追问",
+      "should_trigger": "wine-shill-chat"
+    },
+    {
+      "id": "TR-T1",
+      "query": "找话题：帮我找几个最近适合酒友群聊的白酒新闻",
+      "should_trigger": "wine-topic-finder"
+    },
+    {
+      "id": "TR-N1",
+      "query": "帮我写一个 Python 函数解析 CSV",
+      "should_trigger": null
+    },
+    {
+      "id": "TR-N2",
+      "query": "把这段普通工作汇报润色得正式一点",
+      "should_trigger": null
+    }
+  ]
+}
