@@ -135,7 +135,12 @@ def scan_legacy_terms(errors: list[str]) -> None:
         for path in base.rglob("*"):
             if not path.is_file():
                 continue
-            text = path.read_text(encoding="utf-8")
+            if path.name == ".DS_Store":
+                continue
+            try:
+                text = path.read_text(encoding="utf-8")
+            except UnicodeDecodeError:
+                continue
             for term in LEGACY_TERMS:
                 if term in text:
                     fail(errors, f"{path.relative_to(ROOT)} contains legacy term {term}")

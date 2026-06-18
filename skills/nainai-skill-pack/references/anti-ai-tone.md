@@ -13,7 +13,7 @@ The output should feel like a person writing in a private WeChat context, not a 
 
 ## Repair Rules
 
-- Break long complete sentences into short lines, questions, and half-sentences.
+- Break stiff complete sentences into questions and half-sentences, but do not make every line short. For `云中客`, especially middle-aged wine-friend chats, mix short reactions with a few looser, slightly wordy family/meal/budget lines so the group does not read like clipped official summaries.
 - Add interruption, correction, and small misunderstandings.
 - Hide facts inside question-answer exchanges instead of listing them.
 - Let some lines be pure reaction: "啊？", "别急", "真有这事？", "那倒也是".

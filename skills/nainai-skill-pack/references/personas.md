@@ -41,6 +41,9 @@ Only use `客服`, `官方客服`, or `官号` for service identity. Customer se
 
 ## Rules
 
+- Prefer the shared nickname pool, but rotate broadly across it. Do not overuse the same small set such as 王晨、半醉、胡金记、谢二、北陌、糯团子 in every script.
+- For multi-wave scripts, each wave should introduce at least 2-3 names that did not dominate the previous wave, unless the user explicitly asks to continue a specific person's story.
+- Reuse a persona only when there is a continuity reason, such as prior purchase, arrival feedback, family reaction, or a direct callback. Do not make the same person repeatedly open, buy, explain, and close.
 - Do not invent names like 老周, 阿伟, 大刘, 老陈 unless the user supplied them.
 - For 30-line scripts, choose 6-9 ordinary members plus optional customer service.
 - Keep role voice stable through the script.

@@ -48,6 +48,36 @@
       "prompt": "酒托脚本：不要问客服还能不能拍，直接写有人已拍、补单、截图登记。",
       "expected_output": "The script replaces process questions with purchase actions, screenshot registration, delivery expectation, or later tasting callbacks.",
       "assertions": ["no process question", "has 已拍 or 补单", "has screenshot registration or delivery callback", "customer service stays factual"]
+    },
+    {
+      "id": "W9",
+      "prompt": "酒托脚本：先写预热再写卖货，官号负责讲剑南封藏、控价和活动，群友负责自然接话。",
+      "expected_output": "A staged script where official account sets confirmed facts and ordinary members react with questions, price doubt, taste proof, and order actions rather than repeating the announcement.",
+      "assertions": ["has preheat then sale rhythm", "official account sets facts", "group members react instead of repeating", "price or taste question appears"]
+    },
+    {
+      "id": "W10",
+      "prompt": "酒托脚本：连续两波，不要一开始所有托都买完，留几个观望，下一波再因为口感、价格或赠品转化。",
+      "expected_output": "A multi-wave chat with some watching or waiting roles in the first wave, then later conversion or reorder for clear reasons.",
+      "assertions": ["not everyone buys first wave", "has watching or waiting roles", "later conversion has reason", "no hidden production notes"]
+    },
+    {
+      "id": "W11",
+      "prompt": "酒托脚本：老群，卖点有官方控价799、返场优惠、对标K6，写两波群聊，注意老群复购和补货感。",
+      "expected_output": "A two-wave old-group chat where price-control and K6 comparison enter through memory, doubt, personal comparison, repurchase, and stock-up reasons rather than slogans.",
+      "assertions": ["explicit old group rhythm", "price control enters naturally", "K6 comparison is personal and concrete", "orders have reasons", "persona behavior fits product tier"]
+    },
+    {
+      "id": "W12",
+      "prompt": "帮我写老群和次新群两版五粮液感恩酒，官号+云中客，预热+中午+晚上，父亲节当天只卖一天。",
+      "expected_output": "Two campaign-package versions with official-account copy and Yunzhongke chat for each requested time. Old group leans on recent selling, feedback,补礼 and repurchase, while next-new group explains brand, gift meaning, comparable products, and risk reduction.",
+      "assertions": ["has 官号 and 云中客", "has preheat noon night sections", "old and next-new angles differ", "holiday scene appears", "facts remain locked"]
+    },
+    {
+      "id": "W13",
+      "prompt": "晚上十点我要发618大合集，所有商品链接都整理好，官号写文艺一点，不要逐款链接，云中客做收口氛围。",
+      "expected_output": "A collection-close package where official account groups choices by use case with warm guidance instead of listing every link, and Yunzhongke shows missed-wave buyers, holiday/gifting choices, screenshot registration, and later tasting callbacks.",
+      "assertions": ["collection close rhythm", "official account is warm guide not catalog", "does not list every link unless requested", "yunzhongke shows different use cases", "has registration or feedback callback"]
     }
   ]
 }

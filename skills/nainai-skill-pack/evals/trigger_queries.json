@@ -32,6 +32,16 @@
       "should_trigger": "wine-shill-chat"
     },
     {
+      "id": "TR-W2",
+      "query": "帮我写老群和次新群两版，都是官号+云中客，预热+中午+晚上",
+      "should_trigger": "wine-shill-chat"
+    },
+    {
+      "id": "TR-W3",
+      "query": "晚上十点发618大合集，帮我写官号引导和云中客酒托话术",
+      "should_trigger": "wine-shill-chat"
+    },
+    {
       "id": "TR-T1",
       "query": "找话题：帮我找几个最近适合酒友群聊的白酒新闻",
       "should_trigger": "wine-topic-finder"
